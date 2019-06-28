@@ -1,2 +1,4 @@
 ﻿build/
 dist/
+/nbproject/private/
+/build/

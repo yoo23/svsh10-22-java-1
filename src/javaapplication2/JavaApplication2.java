@@ -22,10 +22,13 @@ public class JavaApplication2 {
         // long y = 4543658768979089L;
         
         Scanner sc = new Scanner(System.in);
-        System.out.println("Input x (long): ");
+        System.out.println("Input x (long): then press Enter");
         long x = sc.nextLong();
         
-        System.out.println(x);
+        System.out.println("Input y (long): then press Enter");
+        long y = sc.nextLong();
+        
+        System.out.println(x + y);
     }
     
 }
